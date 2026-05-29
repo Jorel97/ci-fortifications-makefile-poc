@@ -1,0 +1,9 @@
+stages:
+  - test
+
+fortifications:
+  stage: test
+  image: python:3.10
+  script:
+    - make fortifications
+
